@@ -1,0 +1,30 @@
+# Virtual Environments
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Large Datasets (67MB CSV — too big for GitHub)
+*.csv
+galaxy_images/
+
+# Environment Variables
+.env
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary/generated files
+syllabus_page_*.png
+
+# PDF (syllabus is not project code)
+*.pdf
+
+# Misc
+*.log
